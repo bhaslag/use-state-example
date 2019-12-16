@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 
 import Card from '../card/card.component';
-
+//use state returns an array with two values: 1. the state value that you're setting and 2. a function that allows you to set this value 
 const UseStateExample = () => {
+  //array destructuring
   const [name, setName] = useState('Yihua');
   const [address, setAddress] = useState('Amsterdam');
 
